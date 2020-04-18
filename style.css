@@ -1,0 +1,9 @@
+.wrapper {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: orange;
+    width: 65vw;
+    height: 75vh;
+    border-radius: 20px;
+}
