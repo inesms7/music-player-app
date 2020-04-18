@@ -6,16 +6,21 @@
     width: 55vw;
     height: 75vh;
     border-radius: 20px;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    ;
 }
 
 .form {
-    text-align: center;
-
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
 .form .search {
     border: none;
     height: 30px;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    ;
 
 }
 
@@ -26,5 +31,25 @@
     color: black;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
 
+.form .button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.play-button {
+    border-radius: 100px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+.play-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
