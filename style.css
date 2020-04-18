@@ -3,7 +3,28 @@
     margin: 0 auto;
     margin-top: 50px;
     background-color: orange;
-    width: 65vw;
+    width: 55vw;
     height: 75vh;
     border-radius: 20px;
+}
+
+.form {
+    text-align: center;
+
+}
+
+.form .search {
+    border: none;
+    height: 30px;
+
+}
+
+.form .button {
+    border: none;
+    height: 30px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
 }
